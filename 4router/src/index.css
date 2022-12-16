@@ -51,9 +51,16 @@ button:focus-visible {
   padding: 1rem;
   background-color: rgb(213, 226, 232);
   border-radius: 25px;
-  margin: 20%;
+  margin: 20%; 
   
-  
-  
+}
+
+.app{
+
+  display: flex;
+  box-shadow: 10px 30px 20px gray;
+  flex-direction: column;
+  max-width: auto;
+  padding: 1rem;
 
 }

@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import { List } from './pages/List'
+import "./index.css"
+import { Link } from 'react-router-dom'
 
 export function App() {
 
-  // return (
-  //   <div className="App">
-  //     <button>Inicial</button>
-  //     <button>Config</button>
-  //     <button>Index</button>
-  //     <button>List</button>
-  //   </div>
-  // )
+  return (
+    <div className="App">
+      <Link to={`/`}>Profile</Link><br></br>
+      <Link to={`Config`}>Configurações</Link><br></br>
+      <Link to={`Index`}>Index</Link><br></br>
+      <Link to={`List`}>Lista</Link><br></br>
+      <Link to={`List/Id`}>Itens</Link><br></br>
+    </div>
+  )
 }
 
 export default App
