@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import { Index } from './pages/index';
-import { Config } from './pages/config';
-import { Id } from './pages/id';
-import { List } from './pages/list';
-import { Profile } from './pages/profile';
+import { Index } from "./pages/Index";
+import { Config } from "./pages/Config";
+import { Id } from "./pages/Id";
+import { List } from "./pages/List";
+import { Profile } from "./pages/Profile";
+
+
 
 export function Router (){
     return(
