@@ -5,11 +5,11 @@ export function App() {
 
   return (
     <div className="App">
-      <Link to={`/`}>Profile</Link><br></br>
-      <Link to={`Config`}>Configurações</Link><br></br>
-      <Link to={`Index`}>Index</Link><br></br>
-      <Link to={`List`}>Lista</Link><br></br>
-      <Link to={`List/Id`}>Itens</Link><br></br>
+      <Link style={{ textDecoration:'', color:'black'}} to={`/`}>Profile</Link>
+      <Link style={{ textDecoration:'', color:'black'}} to={`Config`}>Configurações</Link>
+      <Link style={{ textDecoration:'', color:'black'}} to={`Index`}>Index</Link>
+      <Link style={{ textDecoration:'', color:'black'}} to={`List`}>Lista</Link>
+      <Link style={{ textDecoration:'', color:'black'}} to={`List/Id`}>Itens </Link>
     </div>
   )
 }

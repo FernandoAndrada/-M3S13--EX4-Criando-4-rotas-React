@@ -6,13 +6,13 @@ import './index.css'
 import { Router } from './Router'
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ 
  <div className='card'> 
     <React.StrictMode>
       <BrowserRouter>
         <Router />
         <App/>
       </BrowserRouter>
-    
     </React.StrictMode>
   </div> 
 );

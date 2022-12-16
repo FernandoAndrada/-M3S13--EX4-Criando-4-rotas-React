@@ -51,16 +51,24 @@ button:focus-visible {
   padding: 1rem;
   background-color: rgb(213, 226, 232);
   border-radius: 25px;
-  margin: 20%; 
-  
+  margin: 5%; 
+
 }
 
-.app{
+.App{
 
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  box-shadow: 10px 30px 20px gray;
-  flex-direction: column;
-  max-width: auto;
-  padding: 1rem;
-
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: rgb(50, 51, 52);
+  gap: 10%;
+  text-decoration: none;
+  margin: 8%;
+  
+}
+.App:hover{
+  color: white;
 }
