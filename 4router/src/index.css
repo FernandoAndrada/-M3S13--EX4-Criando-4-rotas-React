@@ -50,6 +50,7 @@ button:focus-visible {
   max-width: auto;
   padding: 1rem;
   background-color: rgb(213, 226, 232);
+  background-image: linear-gradient(to top,rgb(213, 226, 232),rgb(29, 111, 150));
   border-radius: 25px;
   margin: 5%; 
 
@@ -63,7 +64,7 @@ button:focus-visible {
   justify-content: center;
   font-weight: 400;
   font-size: 1.1rem;
-  color: rgb(50, 51, 52);
+  color: rgb(23, 24, 25);
   gap: 10%;
   text-decoration: none;
   margin: 8%;
